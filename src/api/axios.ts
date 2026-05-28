@@ -17,9 +17,18 @@ api.interceptors.request.use((config) => {
 
 api.interceptors.response.use(
   (response) => response,
-  async (error) => {
-    // token refresh logic here
-    return Promise.reject(error)
+  (error) => {
+
+    const customError = {
+      message:
+        error.response?.data?.message ||
+        "Something went wrong",
+
+      status:
+        error.response?.status,
+    }
+
+    return Promise.reject(customError)
   }
 )
 

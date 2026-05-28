@@ -12,3 +12,11 @@ export interface ProductType {
   image: string
   rating: RatingType
 }
+
+export interface CreateProductPayload {
+  title: string
+  price: number
+  description: string
+  category: string
+  image: string
+}

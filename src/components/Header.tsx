@@ -12,7 +12,7 @@ const navLinks = [
 
 const Header = () => {
   return (
-    <header className="header sticky top-0 py-3 bg-purple-200">
+    <header className="header sticky top-0 py-3 bg-purple-200 z-10">
       <div className="container">
         <div className="flex items-center gap-4 justify-between">
           <Link to="/" className="font-bold text-2xl uppercase">Logo</Link>
