@@ -1,0 +1,144 @@
+  {
+    "text": "file explorer",
+    "type": "folder",
+    "children": [
+      {
+        "text": "src",
+        "type": "folder",
+        "children": [
+          {
+            "text": "components",
+            "type": "folder",
+            "children": [
+              {
+                "text": "Navbar.jsx",
+                "type": "file"
+              },
+              {
+                "text": "Sidebar.jsx",
+                "type": "file"
+              },
+              {
+                "text": "ui",
+                "type": "folder",
+                "children": [
+                  {
+                    "text": "Button.jsx",
+                    "type": "file"
+                  },
+                  {
+                    "text": "Modal.jsx",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "pages",
+            "type": "folder",
+            "children": [
+              {
+                "text": "Home.jsx",
+                "type": "file"
+              },
+              {
+                "text": "About.jsx",
+                "type": "file"
+              },
+              {
+                "text": "Contact.jsx",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "text": "hooks",
+            "type": "folder",
+            "children": [
+              {
+                "text": "useFetch.js",
+                "type": "file"
+              },
+              {
+                "text": "useDebounce.js",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "text": "context",
+            "type": "folder",
+            "children": [
+              {
+                "text": "AuthContext.jsx",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "text": "styles",
+            "type": "folder",
+            "children": [
+              {
+                "text": "globals.css",
+                "type": "file"
+              },
+              {
+                "text": "theme.css",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "text": "App.js",
+            "type": "file"
+          },
+          {
+            "text": "main.jsx",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "text": "public",
+        "type": "folder",
+        "children": [
+          {
+            "text": "images",
+            "type": "folder",
+            "children": [
+              {
+                "text": "logo.png",
+                "type": "file"
+              },
+              {
+                "text": "banner.jpg",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "text": "favicon.ico",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "text": "package.json",
+        "type": "file"
+      },
+      {
+        "text": "vite.config.js",
+        "type": "file"
+      },
+      {
+        "text": ".gitignore",
+        "type": "file"
+      },
+      {
+        "text": "README.md",
+        "type": "file"
+      }
+    ]
+  }
