@@ -1,7 +1,6 @@
 import api from "../axios"
 import { endpoints } from "../endpoints"
 
-
 export const getProduct = async () => {
   const response = await api.get(endpoints.product.all)
   return response.data
