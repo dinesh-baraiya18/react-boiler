@@ -8,6 +8,7 @@ const navLinks = [
   { name: "product", path: '/product' },
   { name: "nested comments", path: '/nested-comments' },
   { name: "file explorer", path: '/file-explorer' },
+  { name: "Interview Task", path: '/interview-task' },
 ]
 
 const Header = () => {

@@ -8,6 +8,7 @@ import Product from "./pages/Product";
 import ProductDetails from "./pages/ProductDetails";
 import FileExplorer from "./pages/FileExplorer/FileExplorer";
 import NestedComments from "./pages/NestedComments/NestedComments";
+import InterviewTask from "./pages/Interview-task/InterviewTask";
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
           { path: "/blog/:id", element: <BlogDetails /> },
           { path: "/product", element: <Product /> },
           { path: "/product/:id", element: <ProductDetails /> },
+          { path: "/interview-task", element: <InterviewTask /> },
         ]
       }
     ]

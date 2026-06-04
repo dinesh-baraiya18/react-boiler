@@ -19,3 +19,15 @@ export const createProduct = async (product: CreateProductPayload) => {
   return response.data
 }
 
+export const updateProduct = async ({ id, data, }: {
+  id: string
+  data: Partial<CreateProductPayload>
+}) => {
+  const response = await api.put<CreateProductPayload>(`/products/${id}`, data)
+  return response.data
+}
+
+export const deleteProduct = async (id: string) => {
+  const response = await api.delete(`/products/${id}`)
+  return response.data
+}
